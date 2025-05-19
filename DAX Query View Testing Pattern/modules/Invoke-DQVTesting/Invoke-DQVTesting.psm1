@@ -29,9 +29,10 @@ $nugets = @(
         ;
         version = "19.84.1"
         ;
-        path = @("lib\netcoreapp3.0\Microsoft.AnalysisServices.AdomdClient.dll",
-                 "lib\netcoreapp3.0\Microsoft.AnalysisServices.Runtime.Core.dll",
-                 "lib\netcoreapp3.0\Microsoft.AnalysisServices.Runtime.Windows.dll")
+        path = @("lib\netcoreapp3.0\Microsoft.AnalysisServices.AdomdClient.dll"
+                 # "lib\netcoreapp3.0\Microsoft.AnalysisServices.Runtime.Core.dll",
+                 # "lib\netcoreapp3.0\Microsoft.AnalysisServices.Runtime.Windows.dll"
+                 )
     }
 )
 
